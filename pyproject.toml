@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "skypro-coursework-5"
+version = "0.1.0"
+description = ""
+authors = ["Kruck <reka_931@mail.ru>"]
+readme = "README.md"
+packages = [{include = "skypro_coursework_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
